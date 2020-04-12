@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+nav a {
+    margin-left: 10px;
+    color: black;
+}
+
+#signin {
+    border-radius: 2px;
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(67, 135, 253);
+    font-weight: bold;
+}
+
+#signin:hover {
+    box-shadow: 0px 1px rgb(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    font-size: 14px;
+}
+
+img {
+    
+}
+
+input {
+    width: 585px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+.buttons a {
+    
+    border-radius: 4px;
+    padding: 10px 16px;
+    color: grey;
+    background-color: rgb(242, 242, 242);
+}
+
+.buttons a:hover {
+    border: 1px solid #c6c6c6;
+}
+
+footer {
+    font-size: 14px;
+    background-color: rgb(242, 242, 242);
+}
+
+footer a {
+    color: grey;
+}
+
+/*nav, nav a, #signin, img {
+    border: 1px solid red;
+}
