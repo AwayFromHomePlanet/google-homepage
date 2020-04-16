@@ -50,22 +50,24 @@ nav a {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 } #search-bar:hover {
     box-shadow: 0 1px 6px 0 #ccc;
-}
-
-#magnifying-glass {
-    margin: auto 15px;
 }
 
 input {
     width: 500px;
     height: 100%;
-    margin: 0;
+    margin: 0 8px;
     border: 0;
     padding: 0;
     outline: none;
-    font-size: 28px;
+    font-size: 16px;
+}
+
+#search-bar a {
+    margin-right: 7px;
 }
 
 #buttons {
@@ -142,4 +144,4 @@ footer a {
 
 /*nav, nav a, #sign-in, img, input, #left, #right, #buttons, footer a, #language {
     border: 1px solid red;
-}
+}*/
