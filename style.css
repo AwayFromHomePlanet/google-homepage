@@ -4,6 +4,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #777;
 } a:hover {
     text-decoration: underline;
 }
@@ -32,7 +33,7 @@ nav a {
     padding: 8px 13px;
     font-weight: bold;
     color: white;
-    background-color: #467bf9;
+    background-color: #427bfb;
 } #sign-in:hover {
     box-shadow: 0px 1px #d9d9d9;
     text-decoration: none;
@@ -51,7 +52,7 @@ nav a {
     border-radius: 24px;
     display: flex;
 } #search-bar:hover {
-    box-shadow: 0 1px 6px 0 #cccccc;
+    box-shadow: 0 1px 6px 0 #ccc;
 }
 
 #magnifying-glass {
@@ -79,24 +80,36 @@ input {
     border-radius: 4px;
     padding: 10px 16px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.54);
-    background-color: rgb(242, 242, 242);
+    color: #555;
+    background-color: #f5f5f5;
 } #buttons a:hover {
     border: 1px solid #c6c6c6;
     padding: 9px 15px;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 1px rgba(0, 0, 0, 0.15);
+    color: #222;
+    box-shadow: 0px 1px 1px #e5e5e5;
 }
 
-footer {
+.bar {
     width: 100%;
     height: 40px;
     position: fixed;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+#country {
+    bottom: 41px;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    color: #777;
+    font-size: 15px;
+}
+
+footer {
     bottom: 0px;
-    border-top: 1px solid rgb(228, 228, 228);
     font-size: 14px;
-    background-color: rgb(242, 242, 242);
 }
 
 footer span {
@@ -106,21 +119,18 @@ footer span {
 }
 
 footer a {
-    color: rgba(0, 0, 0, 0.54);
+    margin: 0 13px;
 }
 
-#left a {
-    margin-left: 25px;
+#left {
+    margin-left: 15px;
 }
 
 #right {
     float: right;
+    margin-right: 15px;
 }
 
-#right a {
-    margin-right: 25px;
-}
-
-/*nav, nav a, #sign-in, img, input, #left, #right, #buttons {
+/*nav, nav a, #sign-in, img, input, #left, #right, #buttons, footer a {
     border: 1px solid red;
 }
