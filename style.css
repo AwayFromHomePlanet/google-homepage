@@ -1,77 +1,87 @@
 body {
-    margin: 0;
     font-family: "Arial", sans-serif;
 }
 
 a {
     text-decoration: none;
-}
-
-a:hover {
+} a:hover {
     text-decoration: underline;
 }
 
 nav {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-right: 30px;
-    margin-top: 25px;
+    margin-top: 17px;
     font-size: 13px;
 }
 
 nav a {
-    margin-left: 10px;
+    margin-left: 15px;
     color: black;
 }
 
-#signin {
-    border-radius: 2px;
-    padding: 8px 15px;
-    color: white;
-    background-color: rgb(67, 135, 253);
-    font-weight: bold;
+#apps {
+    margin-left: 20px;
 }
 
-#signin:hover {
-    box-shadow: 0px 1px rgba(0, 0, 0, 0.15);
+#sign-in {
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 8px 13px;
+    font-weight: bold;
+    color: white;
+    background-color: #467bf9;
+} #sign-in:hover {
+    box-shadow: 0px 1px #d9d9d9;
     text-decoration: none;
 }
 
-main {
-    text-align: center;
-    font-size: 14px;
+#google-logo {
+    margin: 150px auto 30px;
+    display: block;
 }
 
-img {
-    margin-top: 150px;
-    margin-bottom: 30px;
-}
-
-input {
+#search-bar {
     width: 585px;
     height: 44px;
     margin: auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    display: block;
+    display: flex;
+} #search-bar:hover {
+    box-shadow: 0 1px 6px 0 #cccccc;
 }
 
-input:hover {
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+#magnifying-glass {
+    margin: auto 15px;
 }
 
-.buttons {
-    margin-top: 30px;
+input {
+    width: 500px;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: none;
+    font-size: 28px;
 }
 
-.buttons a {
-    margin: 7px;
+#buttons {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons a {
+    margin: 0px 7px;
     border-radius: 4px;
     padding: 10px 16px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.54);
     background-color: rgb(242, 242, 242);
-}
-
-.buttons a:hover {
+} #buttons a:hover {
     border: 1px solid #c6c6c6;
     padding: 9px 15px;
     text-decoration: none;
@@ -99,16 +109,11 @@ footer a {
     color: rgba(0, 0, 0, 0.54);
 }
 
-#left {
-    justify-content: flex-start;
-}
-
 #left a {
     margin-left: 25px;
 }
 
 #right {
-    justify-content: flex-end;
     float: right;
 }
 
@@ -116,6 +121,6 @@ footer a {
     margin-right: 25px;
 }
 
-/*nav, nav a, #signin, img, input, #left, #right, .buttons {
+/*nav, nav a, #sign-in, img, input, #left, #right, #buttons {
     border: 1px solid red;
 }
