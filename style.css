@@ -4,7 +4,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #777;
 } a:hover {
     text-decoration: underline;
 }
@@ -78,16 +77,25 @@ input {
 #buttons a {
     margin: 0px 7px;
     border-radius: 4px;
-    padding: 10px 16px;
+    padding: 12px 16px;
     font-size: 14px;
     color: #555;
     background-color: #f5f5f5;
 } #buttons a:hover {
     border: 1px solid #c6c6c6;
-    padding: 9px 15px;
+    padding: 11px 15px;
     text-decoration: none;
     color: #222;
     box-shadow: 0px 1px 1px #e5e5e5;
+}
+
+#language {
+    text-align: center;
+    font-size: 13px;
+}
+
+#language a, #language span{
+    margin: 0 3px;
 }
 
 .bar {
@@ -120,6 +128,7 @@ footer span {
 
 footer a {
     margin: 0 13px;
+    color: #777;
 }
 
 #left {
@@ -131,6 +140,6 @@ footer a {
     margin-right: 15px;
 }
 
-/*nav, nav a, #sign-in, img, input, #left, #right, #buttons, footer a {
+/*nav, nav a, #sign-in, img, input, #left, #right, #buttons, footer a, #language {
     border: 1px solid red;
 }
