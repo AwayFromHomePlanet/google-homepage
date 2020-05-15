@@ -2,4 +2,4 @@
 
  A simple project on replicating the Google homepage's appearance.
 
- My first Git project!
+ My first Git project! View it at https://awayfromhomeplanet.github.io/google-homepage
